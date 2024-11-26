@@ -34,4 +34,6 @@ WHERE status = 'PAGO'
 --Contar registros
 SELECT COUNT(PersonID)
 FROM Price
-WHERE PersonID = 1 
+WHERE PersonID = 1
+
+select MAX(PriceValue) As PriceValuefrom Price
